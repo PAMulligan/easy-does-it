@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "easy-does-it-blocks/edi-logo",
+  "title": "EDI Logo",
+  "category": "design",
+  "description": "Adds a logo image",
+  "textdomain": "easy-does-it-blocks",
+  "attributes": {
+    "imgID": {
+      "type": "number",
+      "default": 0
+    },
+    "imgAlt": {
+      "type": "string",
+      "default": "",
+      "source": "attribute",
+      "selector": "img",
+      "attribute": "alt"
+    },
+    "imgURL": {
+      "type": "string",
+      "default": "",
+      "source": "attribute",
+      "selector": "img",
+      "attribute": "src"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./index.css"
+}

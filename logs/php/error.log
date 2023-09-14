@@ -4,3 +4,416 @@
 [03-Sep-2023 02:53:11 UTC] PHP Deprecated:  Creation of dynamic property User_Command::$fetcher is deprecated in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php on line 54
 [03-Sep-2023 02:53:11 UTC] PHP Deprecated:  Creation of dynamic property User_Command::$sitefetcher is deprecated in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php on line 55
 [03-Sep-2023 02:53:11 UTC] PHP Deprecated:  Return type of WP_CLI\Iterators\Transform::current() should either be compatible with IteratorIterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Iterators/Transform.php on line 18
+[03-Sep-2023 03:11:48 UTC] PHP Warning:  include(C:\Users\class\Local Sites\easy-does-it\app\public/wp-content/themes/easy-does-it/inclues/setup.php): Failed to open stream: No such file or directory in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\themes\easy-does-it\functions.php on line 8
+[03-Sep-2023 03:11:48 UTC] PHP Warning:  include(): Failed opening 'C:\Users\class\Local Sites\easy-does-it\app\public/wp-content/themes/easy-does-it/inclues/setup.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\themes\easy-does-it\functions.php on line 8
+[03-Sep-2023 03:11:48 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "edi_setup_theme" not found or invalid function name in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(610): do_action('after_setup_the...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#5 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#6 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\class-wp-hook.php on line 310
+[03-Sep-2023 03:12:35 UTC] PHP Warning:  include(C:\Users\class\Local Sites\easy-does-it\app\public/wp-content/themes/easy-does-it/inclues/setup.php): Failed to open stream: No such file or directory in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\themes\easy-does-it\functions.php on line 8
+[03-Sep-2023 03:12:35 UTC] PHP Warning:  include(): Failed opening 'C:\Users\class\Local Sites\easy-does-it\app\public/wp-content/themes/easy-does-it/inclues/setup.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\themes\easy-does-it\functions.php on line 8
+[03-Sep-2023 03:12:35 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "edi_setup_theme" not found or invalid function name in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(610): do_action('after_setup_the...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#5 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#6 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\class-wp-hook.php on line 310
+[03-Sep-2023 03:12:44 UTC] PHP Warning:  include(C:\Users\class\Local Sites\easy-does-it\app\public/wp-content/themes/easy-does-it/inclues/setup.php): Failed to open stream: No such file or directory in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\themes\easy-does-it\functions.php on line 8
+[03-Sep-2023 03:12:44 UTC] PHP Warning:  include(): Failed opening 'C:\Users\class\Local Sites\easy-does-it\app\public/wp-content/themes/easy-does-it/inclues/setup.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\themes\easy-does-it\functions.php on line 8
+[03-Sep-2023 03:12:44 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "edi_setup_theme" not found or invalid function name in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(610): do_action('after_setup_the...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#5 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\class\\...')
+#6 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\class\\...')
+#7 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\class-wp-hook.php on line 310
+[03-Sep-2023 03:12:46 UTC] PHP Warning:  include(C:\Users\class\Local Sites\easy-does-it\app\public/wp-content/themes/easy-does-it/inclues/setup.php): Failed to open stream: No such file or directory in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\themes\easy-does-it\functions.php on line 8
+[03-Sep-2023 03:12:46 UTC] PHP Warning:  include(): Failed opening 'C:\Users\class\Local Sites\easy-does-it\app\public/wp-content/themes/easy-does-it/inclues/setup.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\themes\easy-does-it\functions.php on line 8
+[03-Sep-2023 03:12:46 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "edi_setup_theme" not found or invalid function name in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(610): do_action('after_setup_the...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#5 C:\Users\class\Local Sites\easy-does-it\app\public\wp-blog-header.php(13): require_once('C:\\Users\\class\\...')
+#6 C:\Users\class\Local Sites\easy-does-it\app\public\index.php(17): require('C:\\Users\\class\\...')
+#7 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\class-wp-hook.php on line 310
+[03-Sep-2023 04:57:44 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 04:59:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:01:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:02:44 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:04:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:06:46 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:08:47 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:10:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:11:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:12:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:13:51 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:14:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:16:46 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:17:47 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:18:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:20:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:21:51 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:23:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:25:42 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:27:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:28:38 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:29:38 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:31:39 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:33:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:35:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:37:42 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 05:39:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\class\\...')
+#5 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 15:23:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\class\\...')
+#5 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\class\\...')
+#6 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 20:18:24 UTC] PHP Deprecated:  Creation of dynamic property User_Command::$fetcher is deprecated in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php on line 54
+[03-Sep-2023 20:18:24 UTC] PHP Deprecated:  Creation of dynamic property User_Command::$sitefetcher is deprecated in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php on line 55
+[03-Sep-2023 20:18:24 UTC] PHP Deprecated:  Return type of WP_CLI\Iterators\Transform::current() should either be compatible with IteratorIterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Iterators/Transform.php on line 18
+[03-Sep-2023 20:18:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\class\\...')
+#5 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\index.php(10): require_once('C:\\Users\\class\\...')
+#6 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 20:23:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\class\\...')
+#5 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\index.php(10): require_once('C:\\Users\\class\\...')
+#6 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 20:23:29 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-blog-header.php(13): require_once('C:\\Users\\class\\...')
+#5 C:\Users\class\Local Sites\easy-does-it\app\public\index.php(17): require('C:\\Users\\class\\...')
+#6 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 20:27:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\class\\...')
+#5 C:\Users\class\Local Sites\easy-does-it\app\public\wp-admin\index.php(10): require_once('C:\\Users\\class\\...')
+#6 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[03-Sep-2023 20:27:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php on line 15 and at least 2 expected in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\index.php(15): add_action()
+#1 C:\Users\class\Local Sites\easy-does-it\app\public\wp-settings.php(462): include_once('C:\\Users\\class\\...')
+#2 C:\Users\class\Local Sites\easy-does-it\app\public\wp-config.php(104): require_once('C:\\Users\\class\\...')
+#3 C:\Users\class\Local Sites\easy-does-it\app\public\wp-load.php(50): require_once('C:\\Users\\class\\...')
+#4 C:\Users\class\Local Sites\easy-does-it\app\public\wp-blog-header.php(13): require_once('C:\\Users\\class\\...')
+#5 C:\Users\class\Local Sites\easy-does-it\app\public\index.php(17): require('C:\\Users\\class\\...')
+#6 {main}
+  thrown in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\plugin.php on line 441
+[07-Sep-2023 02:34:53 UTC] PHP Deprecated:  Creation of dynamic property User_Command::$fetcher is deprecated in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php on line 54
+[07-Sep-2023 02:34:53 UTC] PHP Deprecated:  Creation of dynamic property User_Command::$sitefetcher is deprecated in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php on line 55
+[07-Sep-2023 02:34:53 UTC] PHP Deprecated:  Return type of WP_CLI\Iterators\Transform::current() should either be compatible with IteratorIterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Iterators/Transform.php on line 18
+[09-Sep-2023 21:46:44 UTC] PHP Deprecated:  Creation of dynamic property User_Command::$fetcher is deprecated in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php on line 54
+[09-Sep-2023 21:46:44 UTC] PHP Deprecated:  Creation of dynamic property User_Command::$sitefetcher is deprecated in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php on line 55
+[09-Sep-2023 21:46:44 UTC] PHP Deprecated:  Return type of WP_CLI\Iterators\Transform::current() should either be compatible with IteratorIterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Iterators/Transform.php on line 18
+[09-Sep-2023 21:48:31 UTC] PHP Deprecated:  Creation of dynamic property User_Command::$fetcher is deprecated in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php on line 54
+[09-Sep-2023 21:48:31 UTC] PHP Deprecated:  Creation of dynamic property User_Command::$sitefetcher is deprecated in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php on line 55
+[09-Sep-2023 21:48:31 UTC] PHP Deprecated:  Return type of WP_CLI\Iterators\Transform::current() should either be compatible with IteratorIterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Iterators/Transform.php on line 18
+[09-Sep-2023 22:12:04 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:12:07 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:12:39 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:12:43 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:12:51 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:24 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:26 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:30 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:32 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:32 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:34 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:34 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:37 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:37 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:39 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:39 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:41 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:41 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:44 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:44 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:46 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:46 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:48 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:48 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:50 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:50 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:52 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:52 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:13:54 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:18:36 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:20:37 UTC] PHP Notice:  Function WP_Block_Type_Registry::register was called <strong>incorrectly</strong>. Block type names must not contain uppercase characters. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.0.0.) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-includes\functions.php on line 5897
+[09-Sep-2023 22:26:40 UTC] PHP Fatal error:  Cannot redeclare edi_setup_theme() (previously declared in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\includes\setup.php:5) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\themes\easy-does-it\includes\setup.php on line 4
+[09-Sep-2023 22:39:50 UTC] PHP Fatal error:  Cannot redeclare edi_setup_theme() (previously declared in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\includes\setup.php:5) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\themes\easy-does-it\includes\setup.php on line 4
+[09-Sep-2023 22:41:51 UTC] PHP Fatal error:  Cannot redeclare edi_setup_theme() (previously declared in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\includes\setup.php:5) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\themes\easy-does-it\includes\setup.php on line 4
+[09-Sep-2023 22:43:52 UTC] PHP Fatal error:  Cannot redeclare edi_setup_theme() (previously declared in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\includes\setup.php:5) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\themes\easy-does-it\includes\setup.php on line 4
+[09-Sep-2023 22:45:53 UTC] PHP Fatal error:  Cannot redeclare edi_setup_theme() (previously declared in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\includes\setup.php:5) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\themes\easy-does-it\includes\setup.php on line 4
+[09-Sep-2023 22:47:54 UTC] PHP Fatal error:  Cannot redeclare edi_setup_theme() (previously declared in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\includes\setup.php:5) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\themes\easy-does-it\includes\setup.php on line 4
+[09-Sep-2023 22:49:55 UTC] PHP Fatal error:  Cannot redeclare edi_setup_theme() (previously declared in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\includes\setup.php:5) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\themes\easy-does-it\includes\setup.php on line 4
+[10-Sep-2023 04:33:24 UTC] PHP Fatal error:  Cannot redeclare edi_setup_theme() (previously declared in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\includes\setup.php:5) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\themes\easy-does-it\includes\setup.php on line 4
+[10-Sep-2023 04:33:29 UTC] PHP Fatal error:  Cannot redeclare edi_setup_theme() (previously declared in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\includes\setup.php:5) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\themes\easy-does-it\includes\setup.php on line 4
+[10-Sep-2023 04:33:29 UTC] PHP Fatal error:  Cannot redeclare edi_setup_theme() (previously declared in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\includes\setup.php:5) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\themes\easy-does-it\includes\setup.php on line 4
+[13-Sep-2023 00:20:50 UTC] PHP Deprecated:  Creation of dynamic property User_Command::$fetcher is deprecated in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php on line 54
+[13-Sep-2023 00:20:50 UTC] PHP Deprecated:  Creation of dynamic property User_Command::$sitefetcher is deprecated in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php on line 55
+[13-Sep-2023 00:20:50 UTC] PHP Deprecated:  Return type of WP_CLI\Iterators\Transform::current() should either be compatible with IteratorIterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Iterators/Transform.php on line 18
+[13-Sep-2023 00:20:55 UTC] PHP Fatal error:  Cannot redeclare edi_setup_theme() (previously declared in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\plugins\easy-does-it-blocks\includes\setup.php:5) in C:\Users\class\Local Sites\easy-does-it\app\public\wp-content\themes\easy-does-it\includes\setup.php on line 7
+[13-Sep-2023 20:51:35 UTC] PHP Deprecated:  Creation of dynamic property User_Command::$fetcher is deprecated in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php on line 54
+[13-Sep-2023 20:51:35 UTC] PHP Deprecated:  Creation of dynamic property User_Command::$sitefetcher is deprecated in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php on line 55
+[13-Sep-2023 20:51:35 UTC] PHP Deprecated:  Return type of WP_CLI\Iterators\Transform::current() should either be compatible with IteratorIterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Iterators/Transform.php on line 18
