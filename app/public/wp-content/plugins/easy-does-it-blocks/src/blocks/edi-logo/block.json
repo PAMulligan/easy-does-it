@@ -26,6 +26,9 @@
             "attribute": "src"
         }
     },
+    "supports": {
+        "alignWide": true
+    },
     "editorScript": "file:./index.js",
     "style": "file:./index.css"
 }

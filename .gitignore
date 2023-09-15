@@ -1,3 +1,4 @@
 node_modules
 app/sql/local.sql
-logs/php/error.log
+logs
+conf
